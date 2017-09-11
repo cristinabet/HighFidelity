@@ -3,139 +3,138 @@ type = body+head
 scale = 1
 filename = CristinaFromMaya/CristinaFromMaya.fbx
 texdir = CristinaFromMaya/textures
-joint = jointLeftHand = LeftHand
-joint = jointRightHand = RightHand
-joint = jointHead = HeadTop_End
+joint = jointHead = Head
 joint = jointEyeRight = RightEye
-joint = jointNeck = Neck
-joint = jointEyeLeft = LeftEye
 joint = jointLean = Spine
 joint = jointRoot = Hips
+joint = jointLeftHand = LeftHand
+joint = jointRightHand = RightHand
+joint = jointEyeLeft = LeftEye
+joint = jointNeck = Neck
 freeJoint = LeftArm
 freeJoint = LeftForeArm
 freeJoint = RightArm
 freeJoint = RightForeArm
-bs = JawLeft = JawRotateY_Left = 0.5
-bs = EyeSquint_L = Squint_Left = 1
-bs = JawRight = Jaw_Right = 1
-bs = BrowsU_R = BrowsUp_Right = 1
-bs = EyeOpen_R = EyesWide_Right = 1
-bs = JawFwd = JawForeward = 1
-bs = ChinLowerRaise = Jaw_Up = 1
-bs = EyeOpen_L = EyesWide_Left = 1
-bs = EyeBlink_R = Blink_Right = 1
-bs = BrowsD_L = BrowsDown_Left = 1
-bs = MouthSmile_R = Smile_Right = 1
-bs = LipsUpperOpen = UpperLipOut = 1
-bs = MouthDimple_L = Smile_Left = 0.25
-bs = EyeSquint_R = Squint_Right = 1
-bs = BrowsD_R = BrowsDown_Right = 1
-bs = LipsPucker = MouthNarrow_Right = 1
-bs = LipsPucker = MouthNarrow_Left = 1
-bs = MouthFrown_L = Frown_Left = 1
-bs = MouthFrown_R = Frown_Right = 1
-bs = LipsFunnel = TongueUp = 1
-bs = LipsFunnel = MouthWhistle_NarrowAdjust_Right = 0.5
-bs = LipsFunnel = MouthWhistle_NarrowAdjust_Left = 0.5
-bs = LipsFunnel = MouthNarrow_Right = 1
-bs = LipsFunnel = MouthNarrow_Left = 1
-bs = LipsFunnel = Jaw_Down = 0.36
-bs = LipsFunnel = JawForeward = 0.39
-bs = LipsLowerOpen = LowerLipOut = 1
-bs = MouthRight = Midmouth_Right = 1
-bs = LipsUpperUp = UpperLipUp_Right = 0.7
-bs = LipsUpperUp = UpperLipUp_Left = 0.7
-bs = MouthDimple_R = Smile_Right = 0.25
-bs = ChinUpperRaise = UpperLipUp_Right = 0.5
-bs = ChinUpperRaise = UpperLipUp_Left = 0.5
-bs = BrowsU_L = BrowsUp_Left = 1
-bs = Puff = CheekPuff_Right = 1
-bs = Puff = CheekPuff_Left = 1
-bs = MouthSmile_L = Smile_Left = 1
-bs = BrowsU_C = BrowsUp_Right = 1
-bs = BrowsU_C = BrowsUp_Left = 1
-bs = LipsLowerClose = LowerLipIn = 1
-bs = LipsLowerDown = LowerLipDown_Right = 0.7
-bs = LipsLowerDown = LowerLipDown_Left = 0.7
-bs = MouthLeft = Midmouth_Left = 1
-bs = Sneer = Squint_Right = 0.5
-bs = Sneer = Squint_Left = 0.5
-bs = Sneer = NoseScrunch_Right = 0.75
-bs = Sneer = NoseScrunch_Left = 0.75
-bs = EyeBlink_L = Blink_Left = 1
-bs = JawOpen = MouthOpen = 0.7
-bs = LipsUpperClose = UpperLipIn = 1
-jointIndex = RightHandPinky2 = 35
-jointIndex = LeftForeArm = 40
+jointIndex = JawForeward = 99
 jointIndex = RightUpLeg = 1
-jointIndex = RightToeBase = 4
-jointIndex = LeftLeg = 7
-jointIndex = Spine1 = 12
-jointIndex = RightHandRing4 = 33
+jointIndex = CheekPuff_Left = 106
+jointIndex = LeftHandRing3 = 48
 jointIndex = LeftHandIndex1 = 54
-jointIndex = LeftHandPinky3 = 44
+jointIndex = UpperLipIn = 70
+jointIndex = Hair = 120
+jointIndex = LeftHandThumb1 = 58
+jointIndex = Spine2 = 13
+jointIndex = RightHandIndex3 = 24
+jointIndex = LeftShoulder = 38
+jointIndex = Blink_Left = 116
+jointIndex = LeftLeg = 7
+jointIndex = LeftHandRing1 = 46
+jointIndex = HeadTop_End = 64
+jointIndex = MouthWhistle_NarrowAdjust_Right = 78
+jointIndex = LowerLipDown_Left = 90
+jointIndex = Spine = 11
+jointIndex = LeftHandMiddle3 = 52
+jointIndex = Blink_Right = 115
+jointIndex = LeftHandPinky1 = 42
+jointIndex = Jaw_Left = 93
+jointIndex = RightHandMiddle2 = 27
+jointIndex = RightEye = 66
+jointIndex = Jaw_Right = 92
+jointIndex = MouthOpen = 81
+jointIndex = Spine1 = 12
+jointIndex = BrowsOuterLower_Right = 109
+jointIndex = Neck = 62
+jointIndex = RightHandMiddle1 = 26
+jointIndex = JawRotateY_Right = 97
+jointIndex = Smile_Right = 74
+jointIndex = Shoes = 117
+jointIndex = Smile_Left = 75
+jointIndex = CheekPuff_Right = 105
+jointIndex = MouthUp = 80
+jointIndex = EyesWide_Right = 103
+jointIndex = BrowsUp_Right = 107
+jointIndex = Bottoms = 118
+jointIndex = LeftToeBase = 9
+jointIndex = LowerLipIn = 88
+jointIndex = JawRotateY_Left = 98
+jointIndex = RightHandMiddle4 = 29
+jointIndex = default1 = 122
+jointIndex = Midmouth_Right = 85
+jointIndex = RightHandRing1 = 30
+jointIndex = RightHandMiddle3 = 28
+jointIndex = MouthNarrow_Right = 82
+jointIndex = JawRotateZ_Left = 96
+jointIndex = LeftHandThumb4 = 61
+jointIndex = TongueUp = 71
+jointIndex = LeftToe_End = 10
+jointIndex = RightHandIndex4 = 25
+jointIndex = RightHandThumb3 = 20
+jointIndex = LeftHandIndex4 = 57
+jointIndex = Frown_Right = 101
+jointIndex = RightToe_End = 5
+jointIndex = UpperLipOut = 69
+jointIndex = RightHandThumb1 = 18
+jointIndex = Jaw_Up = 91
+jointIndex = RightHandRing4 = 33
+jointIndex = RightHandRing2 = 31
+jointIndex = BrowsOuterLower_Left = 110
+jointIndex = BrowsDown_Left = 114
+jointIndex = MouthNarrow_Left = 83
+jointIndex = RightHandPinky2 = 35
+jointIndex = Squint_Right = 72
+jointIndex = Squint_Left = 73
+jointIndex = RightHandPinky3 = 36
+jointIndex = UpperLipUp_Right = 67
+jointIndex = LeftHandPinky2 = 43
+jointIndex = RightHandIndex2 = 23
 jointIndex = RightHandRing3 = 32
 jointIndex = LeftHandRing2 = 47
-jointIndex = LeftHandMiddle4 = 53
-jointIndex = RightHandPinky1 = 34
-jointIndex = LeftHandMiddle2 = 51
-jointIndex = RightHandRing2 = 31
-jointIndex = RightHand = 17
-jointIndex = Bottoms = 68
-jointIndex = LeftToe_End = 10
-jointIndex = LeftHandMiddle1 = 50
-jointIndex = Tops = 67
-jointIndex = LeftHandMiddle3 = 52
-jointIndex = RightHandMiddle3 = 28
-jointIndex = RightHandMiddle4 = 29
-jointIndex = Spine = 11
-jointIndex = LeftHandIndex4 = 57
-jointIndex = Shoes = 69
-jointIndex = LeftHandThumb4 = 61
-jointIndex = RightHandIndex2 = 23
-jointIndex = RightHandPinky4 = 37
-jointIndex = Hair = 70
-jointIndex = RightHandPinky3 = 36
-jointIndex = RightHandMiddle1 = 26
-jointIndex = RightHandIndex4 = 25
 jointIndex = RightHandThumb4 = 21
-jointIndex = RightHandThumb2 = 19
-jointIndex = Neck = 62
+jointIndex = LeftHandPinky3 = 44
 jointIndex = LeftHand = 41
-jointIndex = LeftHandRing1 = 46
-jointIndex = LeftHandPinky1 = 42
-jointIndex = LeftHandPinky2 = 43
-jointIndex = LeftArm = 39
-jointIndex = RightHandThumb3 = 20
-jointIndex = default1 = 72
-jointIndex = LeftFoot = 8
-jointIndex = RightArm = 15
+jointIndex = Frown_Left = 102
+jointIndex = BrowsIn_Left = 112
+jointIndex = BrowsDown_Right = 113
+jointIndex = Hips = 0
+jointIndex = RightFoot = 3
+jointIndex = RightHandPinky1 = 34
+jointIndex = MouthDown = 84
+jointIndex = LeftHandMiddle4 = 53
+jointIndex = LeftHandMiddle1 = 50
 jointIndex = RightShoulder = 14
-jointIndex = LeftHandThumb3 = 60
-jointIndex = RightHandMiddle2 = 27
-jointIndex = LeftToeBase = 9
+jointIndex = LeftForeArm = 40
 jointIndex = Head = 63
-jointIndex = RightLeg = 2
-jointIndex = LeftHandThumb2 = 59
-jointIndex = HeadTop_End = 64
-jointIndex = Body = 71
-jointIndex = RightEye = 66
-jointIndex = LeftHandPinky4 = 45
-jointIndex = LeftHandRing4 = 49
+jointIndex = Tops = 119
 jointIndex = LeftHandIndex2 = 55
-jointIndex = LeftHandThumb1 = 58
-jointIndex = LeftUpLeg = 6
-jointIndex = RightToe_End = 5
-jointIndex = RightHandIndex3 = 24
+jointIndex = LeftFoot = 8
+jointIndex = Jaw_Down = 94
+jointIndex = RightForeArm = 16
+jointIndex = NoseScrunch_Right = 76
 jointIndex = LeftHandIndex3 = 56
 jointIndex = LeftEye = 65
-jointIndex = RightHandRing1 = 30
-jointIndex = Spine2 = 13
-jointIndex = RightFoot = 3
-jointIndex = Hips = 0
-jointIndex = LeftShoulder = 38
-jointIndex = Eyelashes = 73
-jointIndex = RightForeArm = 16
-jointIndex = RightHandThumb1 = 18
+jointIndex = LeftHandRing4 = 49
+jointIndex = JawBackward = 100
+jointIndex = RightHandThumb2 = 19
+jointIndex = RightArm = 15
 jointIndex = RightHandIndex1 = 22
-jointIndex = LeftHandRing3 = 48
+jointIndex = RightLeg = 2
+jointIndex = UpperLipUp_Left = 68
+jointIndex = BrowsIn_Right = 111
+jointIndex = EyesWide_Left = 104
+jointIndex = Body = 121
+jointIndex = LeftHandThumb2 = 59
+jointIndex = LeftHandThumb3 = 60
+jointIndex = LeftUpLeg = 6
+jointIndex = MouthWhistle_NarrowAdjust_Left = 79
+jointIndex = LeftHandPinky4 = 45
+jointIndex = LeftHandMiddle2 = 51
+jointIndex = RightHand = 17
+jointIndex = RightHandPinky4 = 37
+jointIndex = LeftArm = 39
+jointIndex = LowerLipDown_Right = 89
+jointIndex = JawRotateZ_Right = 95
+jointIndex = Midmouth_Left = 86
+jointIndex = LowerLipOut = 87
+jointIndex = RightToeBase = 4
+jointIndex = NoseScrunch_Left = 77
+jointIndex = BrowsUp_Left = 108
